@@ -1,4 +1,7 @@
 def mumble_letters(letters):
+  if letters.isnumeric():
+    raise Exception("Sorry, no numbers allowed")
+
   input = letters.strip()
   if len(input) == 0:
     return input

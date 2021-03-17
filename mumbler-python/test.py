@@ -19,5 +19,9 @@ class FirstTests(unittest.TestCase):
   def test_mumble_empty_edgecase(self):
     self.assertEqual(mumble_letters(''),'')
 
+  def test_mumble_no_numbers_exception(self):
+    with self.assertRaises(Exception):
+      mumble_letters("123")
+
 if __name__ == '__main__':
     unittest.main()

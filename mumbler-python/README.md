@@ -50,7 +50,7 @@ Note that your ``mumble_letters()`` implementation should also handle an empty s
 ## Solution
 
 Using TDD, implemented two files:
-- [``test.py``](mumbler.py)
+- [``test.py``](test.py)
 
 Contains unit tests for the each of examples above.
 
